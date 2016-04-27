@@ -1,0 +1,25 @@
+{
+  "name": "fs-metadata",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelmp/fs-metadata.git"
+  },
+  "author": "André Passos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrelmp/fs-metadata/issues"
+  },
+  "homepage": "https://github.com/andrelmp/fs-metadata#readme"
+}
