@@ -19,6 +19,6 @@ app.post('/api/fileanalyse', upload.single('0'), function(req, res) {
 });
 
 
-app.listen(8080, function() {
+app.listen(process.env.port || 8080, function() {
     console.log('Node.js listening on port 8080...');
 });
